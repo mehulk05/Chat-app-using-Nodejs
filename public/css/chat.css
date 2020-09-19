@@ -1,0 +1,77 @@
+.chat{
+    padding: 0;
+}
+header {
+    margin-top: 16px;
+    margin-bottom: 28px;
+}
+header h1{
+    font-size: 44px;
+    margin-bottom: 16px;
+
+}
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.main-content {
+    color: #333333;
+    font-family: arial;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.compose input{
+    border-radius: 4px;
+    border: 1px solid #999;
+}
+.users li{
+    font-size: 16px;
+}
+@media screen and (max-width:550px){
+    .compose{
+        display: block;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #getLocation{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .compose form{
+        margin-right: 0;
+    }
+    .chat__sidebar{
+        width: 150px;
+    }
+    hr{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+ul.AboutAuthor_meidum__tEQRV li a,
+.AboutAuthor_meidum__tEQRV>li>a {
+    color: #007bff;
+    font-weight: 600;
+    font-size:16px;
+}
+.container.py-5 p,
+ul.AboutAuthor_meidum__tEQRV li,
+ul.AboutAuthor_meidum__tEQRV li{
+    padding-bottom: 5px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+ul.AboutAuthor_meidum__tEQRV{
+    padding-left: 30px;
+}
+
